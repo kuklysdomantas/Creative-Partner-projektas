@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+  
+body::after {
+    content: "";
+    background: url('../images/HOME.jpg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.login{
+    width: 220px;
+    position: fixed;
+    bottom: 280px;
+    right: 200px;
+    height: 10em;
+    width: 235px;
+    font-size: large;
+}
+
+#password{
+    size: 100px;
+}
+
+#email{
+    height: 20px;
+}
+
+.btn btn-primary{
+    height: 20px;
+}
+
