@@ -1,6 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
+
+ <!-- Styles -->
+ <link href="{{ asset('css/home.css') }}" rel="stylesheet">
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">

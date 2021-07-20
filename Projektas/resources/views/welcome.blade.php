@@ -54,7 +54,7 @@
         
     <!-- LOGIN -->
         <div class="login">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" style="margin-left: auto; margin-right: 6em; margin-bottom: 5em;">
                 <div class="col-md-8">
                     <div class="card">
                         <div class="card-header">{{ __('Login') }}</div>
