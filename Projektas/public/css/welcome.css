@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 90%;
 }
   
 body::after {
@@ -20,13 +20,36 @@ body::after {
 }
 
 .header{
+    width: 100%;
     font:bold;
-    right: 990px;
+    display:flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dont-have{
+    font-size: 0.65em;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.home-register{
+    margin-left: 70px;
+    margin-top: 5px;
+    font-size: 0.65em;
+    border: 1px black solid;
+    padding: 5px;
+    background-color: white;
+}
+
+.home-register:hover{
+    background-color: lightblue;
 }
 
 .login{
     width: 100%;
-    height: 100%;
+    margin-top: 80px;
     display: flex;
     align-items: center;
     font-size: 1.8em;
@@ -68,3 +91,7 @@ body::after {
 #forgot:hover{
     color: blue;
 } 
+
+.hr{
+    border: 1px solid black;
+}
