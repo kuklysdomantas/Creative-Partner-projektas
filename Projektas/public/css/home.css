@@ -1,8 +1,7 @@
-html, body{
-    height: 100%;
-
+body{
+    background-color: grey;
 }
 
-body{
-    background-color: black;
+body::after {
+    background-image: none;
 }
